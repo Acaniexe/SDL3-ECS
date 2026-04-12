@@ -1,7 +1,7 @@
 #pragma once
 #include <SDL3/SDL.h>
 #include "input.h"
-#include "entity_manager.h"
+#include "ECS.h"
 #include "components/movement.h"
 
 struct App {

@@ -10,6 +10,10 @@ int main(int argc, char *argv[]) {
     Entity player = app.entityManager.createEntity();
     app.entityManager.addComponent(player, Position{0.0f, 0.0f});
     app.entityManager.addComponent(player, Velocity{50.0f, 50.0f});
+
+    Entity enemy = app.entityManager.createEntity();
+    app.entityManager.addComponent(enemy, Position{20.0f, 0.0f});
+    app.entityManager.addComponent(enemy, Velocity{25.0f, 20.0f});
     
     Uint64 perFrequency = SDL_GetPerformanceFrequency();
     Uint64 lastCounter = SDL_GetPerformanceCounter();

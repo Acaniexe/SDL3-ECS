@@ -1,5 +1,5 @@
 #pragma once
-#include "entity_manager.h"
+#include "ECS.h"
 #include "components/position.h"
 #include "components/velocity.h"
 
